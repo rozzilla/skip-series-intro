@@ -24,7 +24,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: browser-extension
-          path: browser-extension.zip
+          path: browser-extension
 
       - name: Display artifact link
         run: |
