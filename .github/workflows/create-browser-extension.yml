@@ -3,7 +3,7 @@ name: Create browser extension
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   zip-files:
