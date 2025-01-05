@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Skip series intro",
+  "description": "Skip series intro allows to automatically skip the intro of the series.",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*", "file:///*/*"],
+      "run_at": "document_start",
+      "js": ["src/scripts/content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Skip series intro"
+  },
+  "icons": {
+    "16": "src/images/icon16.png",
+    "48": "src/images/icon48.png",
+    "128": "src/images/icon128.png"
+  },
+  "incognito": "spanning"
+}
