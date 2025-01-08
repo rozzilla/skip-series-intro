@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Skip series intro",
   "description": "Skip series intro allows to automatically skip the intro of the series.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
