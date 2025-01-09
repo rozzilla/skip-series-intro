@@ -9,6 +9,8 @@ jobs:
   zip-files:
     name: Create and Upload Zip
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
