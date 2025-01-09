@@ -4,7 +4,7 @@
 
 ## Description 🔭
 
-Automatically skip Netflix series intro.
+Automatically skip Netflix and DisneyPlus series intro.
 
 ## Ideas, bug, questions 📫
 

@@ -1,17 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Skip series intro",
-  "description": "Skip series intro allows to automatically skip the intro of the series.",
+  "description": "Skip series intro allows to automatically skip the intro of the series on Netflix and Disney Plus.",
   "version": "1.0.2",
   "content_scripts": [
     {
-      "matches": [
-        "https://*/*"
-      ],
+      "matches": ["https://*/*"],
       "run_at": "document_start",
-      "js": [
-        "src/scripts/content.js"
-      ]
+      "js": ["src/scripts/content.js"]
     }
   ],
   "action": {
