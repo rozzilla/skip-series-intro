@@ -14,6 +14,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Bump manifest.json version
+        id: bump_version
+        run: |
+          VERSION_FILE="manifest.json"
+          VERSION=$(jq -r '.version' $VERSION_FILE)
+          IFS='.' read -r -a version_parts <<< "$VERSION"
+          PATCH=${version_parts[2]}
+          PATCH=$((PATCH + 1))
+          NEW_VERSION="${version_parts[0]}.${version_parts[1]}.$PATCH"
+          jq --arg new_version "$NEW_VERSION" '.version = $new_version' $VERSION_FILE > temp.json && mv temp.json $VERSION_FILE
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "Bump version to $NEW_VERSION"
+          git push
+
       - name: Create zip file
         run: |
           mkdir -p browser-extension

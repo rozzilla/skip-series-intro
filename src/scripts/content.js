@@ -8,4 +8,4 @@ setInterval(() => {
   for (const element of elements) {
     document.querySelector(element)?.click();
   }
-}, 200);
+}, 100);
