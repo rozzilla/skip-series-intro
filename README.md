@@ -6,6 +6,10 @@
 
 Automatically skip Netflix and DisneyPlus series intro.
 
+## Installation 💻
+
+Install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/skip-series-intro/fmihiaamiiimdeilnigjedfbbpincnec).
+
 ## Ideas, bug, questions 📫
 
 Feel free to contribute to this open-source project and to open a PR if you have an idea for a new feature.
