@@ -4,7 +4,7 @@
 
 ## Description 🔭
 
-Automatically skip Netflix and Disney Plus (Disney+) series intro.
+Automatically skip Netflix, Disney Plus (Disney+), Udemy series intro.
 
 ## Installation 💻
 
