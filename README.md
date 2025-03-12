@@ -12,4 +12,4 @@ Install the extension from the [Chrome Web Store](https://chromewebstore.google.
 
 ## Ideas, bug, questions 📫
 
-Feel free to contribute to this open-source project and to open an issue (or even better a PR) if you have an idea for a new feature.
+Feel free to contribute to this open-source project and open an issue (or, even better, a PR) if you have an idea for a new feature.
