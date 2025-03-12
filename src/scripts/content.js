@@ -3,8 +3,7 @@ const elements = [
   '[data-uia="interrupt-autoplay-continue"]',
   '[data-purpose="go-to-next-button"]',
   ".watch-video--skip-content-button",
-  '.skip__button.body-copy',
-  '.rai-custom-card-next-videos-countdown'
+  '.skip__button.body-copy'
 ];
 
 setInterval(() => {
