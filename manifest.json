@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Skip series intro",
   "description": "Skip series intro automatically skip the intro of new episodes while whatching Netflix, Disney Plus, and Udemy.",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "content_scripts": [
     {
       "matches": [
