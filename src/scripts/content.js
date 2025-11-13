@@ -1,4 +1,5 @@
 const elements = [
+  '.rai-custom-skip-to-button:not(.vjs-hidden)',
   '[data-uia="next-episode-seamless-button"]',
   '[data-uia="interrupt-autoplay-continue"]',
   '[data-purpose="go-to-next-button"]',
